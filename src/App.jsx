@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Users />} exact />
         <Route path="/places/new" element={<NewPlace />} exact />
-        <Route path="*" element={<Navigate to="/" />}/>
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
   )
