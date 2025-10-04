@@ -10,7 +10,7 @@ function Users() {
         }
     ];
 
-    return <UsersList items={USERS} /> // MUST HAVE ITEMS PROP
+    return <UsersList items={USERS} />
 }   
 
 export default Users;

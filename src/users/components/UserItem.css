@@ -1,0 +1,23 @@
+.user-item:hover h2,
+.user-item:active h2,
+.user-item:hover h3,
+.user-item:active h3
+{
+    color: #292929;
+}
+
+.user-item a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  background: #292929;
+}
+
+.user-item a:hover,
+.user-item a:active {
+  background: #ffd900;
+}
