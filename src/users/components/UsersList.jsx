@@ -11,7 +11,7 @@ function UsersList(props) {
     };
     
     return (
-        <ul className="list-none my-0 mx-auto p-0 w-[90%] max-w-[50rem] flex content-center flex-wrap">
+        <ul className="list-none my-0 mx-auto p-0 w-[90%] max-w-[50rem] flex justify-center flex-wrap">
             {props.items.map(user => 
                 <UserItem 
                     key={user.id}
